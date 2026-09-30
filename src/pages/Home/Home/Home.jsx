@@ -5,6 +5,8 @@ import BuildSkills from "../BuildSkills/BuildSkills";
 import RecentCourse from "../RecentCourse/RecentCourse";
 import ExploreDiverse from "../ExploreDiverse/ExploreDiverse";
 import GrowthAndCourse from "../GrowthAndCourse/GrowthAndCourse";
+import CreatorBanner from "../CreatorBanner/CreatorBanner";
+import OurCommunity from "../OurCommunity/OurCommunity";
 
 const Home = () => {
 
@@ -18,6 +20,8 @@ const Home = () => {
             <RecentCourse courses={courses}></RecentCourse>
             <ExploreDiverse></ExploreDiverse>
             <GrowthAndCourse></GrowthAndCourse>
+            <CreatorBanner></CreatorBanner>
+            <OurCommunity></OurCommunity>
         </div>
     );
 };
