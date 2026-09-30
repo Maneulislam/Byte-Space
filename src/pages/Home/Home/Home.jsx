@@ -4,6 +4,7 @@ import Brand from "../Brand/Brand";
 import BuildSkills from "../BuildSkills/BuildSkills";
 import RecentCourse from "../RecentCourse/RecentCourse";
 import ExploreDiverse from "../ExploreDiverse/ExploreDiverse";
+import GrowthAndCourse from "../GrowthAndCourse/GrowthAndCourse";
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
             <BuildSkills></BuildSkills>
             <RecentCourse courses={courses}></RecentCourse>
             <ExploreDiverse></ExploreDiverse>
+            <GrowthAndCourse></GrowthAndCourse>
         </div>
     );
 };
