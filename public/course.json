@@ -1,0 +1,382 @@
+[
+    {
+        "id": 1,
+        "title": "Learn Figma from Basic",
+        "author": "purepearl studio",
+        "rating": 4.5,
+        "level": "Beginner",
+        "price": 25,
+        "lessons": 17,
+        "duration": "2 hours 16 mins",
+        "comments": 59,
+        "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "26+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=1",
+            "https://i.pravatar.cc/100?img=2",
+            "https://i.pravatar.cc/100?img=3",
+            "https://i.pravatar.cc/100?img=4"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Build Digital Asset",
+        "author": "purepearl studio",
+        "rating": 4.8,
+        "level": "Intermediate",
+        "price": 30,
+        "lessons": 22,
+        "duration": "3 hours 45 mins",
+        "comments": 84,
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "42+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=5",
+            "https://i.pravatar.cc/100?img=6",
+            "https://i.pravatar.cc/100?img=7",
+            "https://i.pravatar.cc/100?img=8"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "The Power of Big Data",
+        "author": "purepearl studio",
+        "rating": 4.6,
+        "level": "Advanced",
+        "price": 45,
+        "lessons": 30,
+        "duration": "5 hours 10 mins",
+        "comments": 112,
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "85+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=9",
+            "https://i.pravatar.cc/100?img=10",
+            "https://i.pravatar.cc/100?img=11",
+            "https://i.pravatar.cc/100?img=12"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Balancing Productivity & Life",
+        "author": "purepearl studio",
+        "rating": 4.7,
+        "level": "Beginner",
+        "price": 20,
+        "lessons": 12,
+        "duration": "1 hour 50 mins",
+        "comments": 43,
+        "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "19+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=13",
+            "https://i.pravatar.cc/100?img=14",
+            "https://i.pravatar.cc/100?img=15",
+            "https://i.pravatar.cc/100?img=16"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Mastering Money Management",
+        "author": "purepearl studio",
+        "rating": 4.9,
+        "level": "Intermediate",
+        "price": 35,
+        "lessons": 18,
+        "duration": "2 hours 55 mins",
+        "comments": 96,
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "64+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=17",
+            "https://i.pravatar.cc/100?img=18",
+            "https://i.pravatar.cc/100?img=19",
+            "https://i.pravatar.cc/100?img=20"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "From Idea to Startup Success",
+        "author": "purepearl studio",
+        "rating": 4.5,
+        "level": "All Levels",
+        "price": 50,
+        "lessons": 25,
+        "duration": "4 hours 20 mins",
+        "comments": 78,
+        "image": "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "38+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=21",
+            "https://i.pravatar.cc/100?img=22",
+            "https://i.pravatar.cc/100?img=23",
+            "https://i.pravatar.cc/100?img=24"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "React & Tailwind Masterclass",
+        "author": "codecraft lab",
+        "rating": 4.9,
+        "level": "Intermediate",
+        "price": 40,
+        "lessons": 35,
+        "duration": "6 hours 15 mins",
+        "comments": 142,
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "120+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=25",
+            "https://i.pravatar.cc/100?img=26",
+            "https://i.pravatar.cc/100?img=27",
+            "https://i.pravatar.cc/100?img=28"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "UI/UX Design Systems in Figma",
+        "author": "designify academy",
+        "rating": 4.8,
+        "level": "Advanced",
+        "price": 38,
+        "lessons": 20,
+        "duration": "3 hours 30 mins",
+        "comments": 65,
+        "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "50+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=29",
+            "https://i.pravatar.cc/100?img=30",
+            "https://i.pravatar.cc/100?img=31",
+            "https://i.pravatar.cc/100?img=32"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Fullstack Web Development",
+        "author": "devhub team",
+        "rating": 4.7,
+        "level": "All Levels",
+        "price": 60,
+        "lessons": 48,
+        "duration": "9 hours 00 mins",
+        "comments": 210,
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "200+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=33",
+            "https://i.pravatar.cc/100?img=34",
+            "https://i.pravatar.cc/100?img=35",
+            "https://i.pravatar.cc/100?img=36"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Digital Marketing Strategy 2026",
+        "author": "growth lab",
+        "rating": 4.4,
+        "level": "Beginner",
+        "price": 28,
+        "lessons": 16,
+        "duration": "2 hours 40 mins",
+        "comments": 37,
+        "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "33+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=37",
+            "https://i.pravatar.cc/100?img=38",
+            "https://i.pravatar.cc/100?img=39",
+            "https://i.pravatar.cc/100?img=40"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Python for Data Science",
+        "author": "dataworks co",
+        "rating": 4.9,
+        "level": "Intermediate",
+        "price": 42,
+        "lessons": 28,
+        "duration": "4 hours 50 mins",
+        "comments": 155,
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "175+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=41",
+            "https://i.pravatar.cc/100?img=42",
+            "https://i.pravatar.cc/100?img=43",
+            "https://i.pravatar.cc/100?img=44"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Graphic Design Fundamentals",
+        "author": "creative studio",
+        "rating": 4.3,
+        "level": "Beginner",
+        "price": 22,
+        "lessons": 14,
+        "duration": "2 hours 05 mins",
+        "comments": 29,
+        "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "45+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=45",
+            "https://i.pravatar.cc/100?img=46",
+            "https://i.pravatar.cc/100?img=47",
+            "https://i.pravatar.cc/100?img=48"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Mobile App UI with Flutter",
+        "author": "appcraft inc",
+        "rating": 4.6,
+        "level": "Intermediate",
+        "price": 36,
+        "lessons": 24,
+        "duration": "3 hours 50 mins",
+        "comments": 71,
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "58+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=49",
+            "https://i.pravatar.cc/100?img=50",
+            "https://i.pravatar.cc/100?img=51",
+            "https://i.pravatar.cc/100?img=52"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Content Writing & Copywriting",
+        "author": "wordcraft press",
+        "rating": 4.5,
+        "level": "All Levels",
+        "price": 24,
+        "lessons": 15,
+        "duration": "2 hours 20 mins",
+        "comments": 48,
+        "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "62+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=53",
+            "https://i.pravatar.cc/100?img=54",
+            "https://i.pravatar.cc/100?img=55",
+            "https://i.pravatar.cc/100?img=56"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Search Engine Optimization (SEO)",
+        "author": "growth lab",
+        "rating": 4.7,
+        "level": "Intermediate",
+        "price": 32,
+        "lessons": 19,
+        "duration": "3 hours 10 mins",
+        "comments": 82,
+        "image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "91+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=57",
+            "https://i.pravatar.cc/100?img=58",
+            "https://i.pravatar.cc/100?img=59",
+            "https://i.pravatar.cc/100?img=60"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Cloud Computing Essentials",
+        "author": "cloudverse academy",
+        "rating": 4.8,
+        "level": "Advanced",
+        "price": 55,
+        "lessons": 32,
+        "duration": "5 hours 45 mins",
+        "comments": 104,
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "110+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=61",
+            "https://i.pravatar.cc/100?img=62",
+            "https://i.pravatar.cc/100?img=63",
+            "https://i.pravatar.cc/100?img=64"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Cybersecurity Basics for Beginners",
+        "author": "securenet studio",
+        "rating": 4.6,
+        "level": "Beginner",
+        "price": 29,
+        "lessons": 16,
+        "duration": "2 hours 30 mins",
+        "comments": 53,
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "73+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=65",
+            "https://i.pravatar.cc/100?img=66",
+            "https://i.pravatar.cc/100?img=67",
+            "https://i.pravatar.cc/100?img=68"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "E-Commerce Business Setup",
+        "author": "purepearl studio",
+        "rating": 4.5,
+        "level": "All Levels",
+        "price": 34,
+        "lessons": 21,
+        "duration": "3 hours 20 mins",
+        "comments": 61,
+        "image": "https://images.unsplash.com/photo-1556742049-0a67568a0d70?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "48+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=69",
+            "https://i.pravatar.cc/100?img=70",
+            "https://i.pravatar.cc/100?img=1",
+            "https://i.pravatar.cc/100?img=2"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "3D Modeling with Blender",
+        "author": "pixelcraft labs",
+        "rating": 4.9,
+        "level": "Intermediate",
+        "price": 48,
+        "lessons": 38,
+        "duration": "7 hours 15 mins",
+        "comments": 128,
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "135+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=3",
+            "https://i.pravatar.cc/100?img=4",
+            "https://i.pravatar.cc/100?img=5",
+            "https://i.pravatar.cc/100?img=6"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Agile Project Management",
+        "author": "leadership hub",
+        "rating": 4.6,
+        "level": "All Levels",
+        "price": 27,
+        "lessons": 13,
+        "duration": "2 hours 10 mins",
+        "comments": 39,
+        "image": "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?auto=format&fit=crop&w=600&q=80",
+        "enrolledCount": "31+",
+        "avatars": [
+            "https://i.pravatar.cc/100?img=7",
+            "https://i.pravatar.cc/100?img=8",
+            "https://i.pravatar.cc/100?img=9",
+            "https://i.pravatar.cc/100?img=10"
+        ]
+    }
+]
