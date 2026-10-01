@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { useParams, Link, useLoaderData } from 'react-router';
-import { FaShareAlt, FaStar, FaPlayCircle, FaCheckCircle, FaFileAlt, FaVideo, FaCertificate, FaUserFriends, FaSignal, FaArrowLeft } from 'react-icons/fa';
+import { useParams, useLoaderData } from 'react-router';
+import { FaShareAlt, FaStar, FaPlayCircle, FaCheckCircle, FaFileAlt, FaVideo, FaCertificate, FaUserFriends, FaSignal } from 'react-icons/fa';
+import NotFound from '../NotFound/NotFound';
 
 const CourseDetails = () => {
     const { id } = useParams();
@@ -10,14 +11,7 @@ const CourseDetails = () => {
     const course = coursesData?.find((item) => String(item.id) === String(id));
 
     if (!course) {
-        return (
-            <div className="min-h-screen flex flex-col items-center justify-center space-y-4">
-                <h2 className="text-2xl font-bold text-slate-800">Course Not Found!</h2>
-                <Link to="/" className="text-blue-600 underline font-semibold flex items-center gap-2">
-                    <FaArrowLeft /> Back to Courses
-                </Link>
-            </div>
-        );
+        return <NotFound></NotFound>
     }
 
     const keyPointsList = [

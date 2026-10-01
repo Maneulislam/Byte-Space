@@ -1,11 +1,97 @@
-import { Link } from "react-router";
+import { FiBarChart2, FiFilter, FiGrid, FiMenu } from "react-icons/fi";
+import { Link, useLoaderData } from "react-router";
 
-const RecentCourse = ({ courses = [] }) => {
+const Creators = () => {
+
+    const courses = useLoaderData();
+
     return (
-        <div className="max-w-7xl mx-auto p-4 md:p-6">
+
+        <div>
+
+            <div className="w-full bg-[#003BE2] text-white p-8 sm:p-12 relative overflow-hidden font-sans">
+                <div
+                    className="absolute inset-0 z-0 pointer-events-none"
+
+                />
+
+                <div className="max-w-6xl mx-auto relative z-10 space-y-6">
+                    <div className="flex items-center gap-4">
+                        <img
+                            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300"
+                            alt="PurePearl Studio"
+                            className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover bg-pink-300"
+                        />
+                        <div className="space-y-1">
+                            <div className="flex items-center gap-2.5">
+                                <h2 className="text-xl sm:text-2xl font-bold tracking-tight">PurePearl Studio</h2>
+                                <span className="bg-[#CCFF00] text-slate-900 text-[10px] font-semibold px-2.5 py-0.5 rounded-full">
+                                    Creator
+                                </span>
+                            </div>
+                            <p className="text-xs text-white/80 font-medium">
+                                Passionate UI/UX, Web designer
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="max-w-4xl text-xs sm:text-sm text-white/90 leading-relaxed space-y-2">
+                        <p>
+                            Welcome to the creative world of PurePearl Studio. Here, you'll discover the passion, expertise, and inspiration that drive my creative journey. Let's explore and learn together!
+                        </p>
+                        <p>
+                            Dive into my creative portfolio, showcasing a glimpse of my artistic endeavors. From digital designs to multimedia projects, each piece tells a unique story. Explore the world of creativity with me.
+                        </p>
+                    </div>
+
+                    <div className="flex items-center justify-between pt-2">
+                        <div className="flex items-center gap-3">
+                            <div className="bg-white text-slate-900 px-4 py-2 rounded-full text-xs font-medium shadow-xs">
+                                <span className="font-bold text-blue-600 mr-1">3</span> Products
+                            </div>
+                            <div className="bg-white text-slate-900 px-4 py-2 rounded-full text-xs font-medium shadow-xs">
+                                <span className="font-bold text-blue-600 mr-1">12</span> Followers
+                            </div>
+                        </div>
+
+                        <button className="bg-[#CCFF00] hover:bg-[#b8e600] text-slate-900 text-xs font-bold px-6 py-2.5 rounded-full transition cursor-pointer shadow-sm">
+                            Follow
+                        </button>
+                    </div>
+                </div>
 
 
-            <div className="max-w-7xl my-10 mx-auto p-4 md:p-6">
+
+            </div>
+
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 mt-12 space-y-6">
+                <div className="flex flex-wrap items-center justify-between gap-4">
+                    <div className="flex flex-wrap items-center gap-3">
+                        <button className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold transition-colors">
+                            <FiFilter className="text-sm" />
+                            <span>Filter</span>
+                        </button>
+
+                        <button className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold transition-colors">
+                            <FiBarChart2 className="text-sm" />
+                            <span>Level</span>
+                        </button>
+
+                        <button className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold transition-colors">
+                            <FiGrid className="text-sm" />
+                            <span>Category</span>
+                        </button>
+                    </div>
+
+                    <button className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold transition-colors">
+                        <FiMenu className="text-sm" />
+                        <span>Most relevant</span>
+                    </button>
+                </div>
+            </div>
+
+
+            <div className="max-w-7xl my-6 mx-auto p-4 md:p-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {courses.slice(0, 6).map((course) => (
                         <Link
@@ -86,4 +172,4 @@ const RecentCourse = ({ courses = [] }) => {
     );
 };
 
-export default RecentCourse;
+export default Creators;
