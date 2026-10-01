@@ -5,7 +5,7 @@ import Footer from '../pages/Shared/Footer';
 
 const RootLayout = () => {
     return (
-        <div>
+        <div >
 
 
             <Navbar />
@@ -13,7 +13,7 @@ const RootLayout = () => {
 
             <div>
 
-                <main className="flex-grow">
+                <main >
                     <Outlet />
                 </main>
             </div>
