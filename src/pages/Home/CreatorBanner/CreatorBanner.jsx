@@ -2,7 +2,7 @@
 const CreatorBanner = () => {
     return (
         <section
-            className="relative w-full overflow-hidden bg-[#0052FF] min-h-100 flex items-center justify-center py-16 px-4 text-center text-white"
+            className="relative w-full overflow-hidden bg-[#0052FF] min-h-100 flex items-center justify-center py-20 px-4 text-center text-white"
 
         >
             <div className="pointer-events-none absolute -left-8 -top-4 md:left-[2%] md:top-[5%] text-[#CCFF00] select-none">

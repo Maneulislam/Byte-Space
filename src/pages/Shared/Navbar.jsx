@@ -1,6 +1,6 @@
 import { FiShoppingBag, FiMenu } from 'react-icons/fi';
 import Logo from '../../components/Logo/Logo';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
     const navLinks = (
@@ -62,8 +62,8 @@ const Navbar = () => {
                         >
                             {navLinks}
                             <div className="divider my-1 border-blue-400"></div>
-                            <li><NavLink to="/signin">Sign In</NavLink></li>
-                            <li><NavLink to="/join">Join Us</NavLink></li>
+                            <li><Link to="/signin">Sign In</Link></li>
+                            <li><Link to="/join">Join Us</Link></li>
                         </ul>
                     </div>
 
