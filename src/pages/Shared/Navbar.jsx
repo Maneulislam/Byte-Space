@@ -1,6 +1,6 @@
 import { FiShoppingBag, FiMenu } from 'react-icons/fi';
 import Logo from '../../components/Logo/Logo';
-import { Link, NavLink } from 'react-router';
+import { NavLink } from 'react-router';
 
 const Navbar = () => {
     const navLinks = (
@@ -53,17 +53,39 @@ const Navbar = () => {
 
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden text-white p-2">
+                        <div
+                            tabIndex={0}
+                            role="button"
+                            className="btn btn-ghost lg:hidden text-white p-2"
+                        >
                             <FiMenu size={24} />
                         </div>
+
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content mt-3 z-1 p-2 shadow bg-[#003BFF] rounded-box w-52 text-white border border-blue-500"
+                            className="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow bg-[#003BFF] rounded-box w-52 text-white border border-blue-500"
                         >
-                            {navLinks}
+                            <li>
+                                <NavLink to="/">Home</NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink to="/courses">Courses</NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink to="/creators">Creators</NavLink>
+                            </li>
+
                             <div className="divider my-1 border-blue-400"></div>
-                            <li><Link to="/signin">Sign In</Link></li>
-                            <li><Link to="/join">Join Us</Link></li>
+
+                            <li>
+                                <NavLink to="/signin">Sign In</NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink to="/join">Join Us</NavLink>
+                            </li>
                         </ul>
                     </div>
 
